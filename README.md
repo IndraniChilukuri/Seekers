@@ -1,5 +1,5 @@
 # Seekers
-# Metadata of addmission data:
+# Metadata of addmission:
      * what type of analysis.
      * what course to do for this part .
 Objectives of the institute:
