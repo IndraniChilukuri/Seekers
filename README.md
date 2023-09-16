@@ -1,17 +1,17 @@
-# Seekers
-# Metadata of addmission:
+# Seekers date:06.09.2023
+1.Metadata of addmission:
      * what type of analysis.
      * what course to do for this part .
 Objectives of the institute:
- # Increase the students strenght:
+ 1. Increase the students strenght:
        * Advertising.   
        * Relavancy of the course.
        * Partnership.
        * Students review and network.
        * get talented teachers.
-  # Quality of education:
+  2.Quality of education:
        * Qualification of the teachers.
-# Application of the institute:
+3. Application of the institute:
     * Contact.
     * Source of refference .
     * Geographical information of students.
