@@ -18,8 +18,8 @@ Objectives of the institute:
      Education background .
      Pre-requisite Knowledge and skills.
      About fee details.
-     *About the course deatils available in that institute.
-#Date : 15/09/2023
+     About the course deatils available in that institute.
+# Date : 15/09/2023
 To predict how the Student loans are approved and rejected:the things we need to analyse to do this prediction
 1. Preprosessing{Null Value Rectification}:randome values,modes,smart.
    which column  need which type of null value rectification.
