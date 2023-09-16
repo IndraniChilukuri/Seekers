@@ -13,12 +13,12 @@ Objectives of the institute:
         Qualification of the teachers.
 3. Application of the institute:
    Contact.
-     Source of refference .
-     Geographical information of students.
-     Education background .
-     Pre-requisite Knowledge and skills.
-     About fee details.
-     About the course deatils available in that institute.
+    * Source of refference .
+     *Geographical information of students.
+     *Education background .
+     *Pre-requisite Knowledge and skills.
+     *About fee details.
+     *About the course deatils available in that institute.
 # Date : 15/09/2023
 To predict how the Student loans are approved and rejected:the things we need to analyse to do this prediction
 1. Preprosessing{Null Value Rectification}:randome values,modes,smart.
