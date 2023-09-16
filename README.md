@@ -19,3 +19,22 @@ Objectives of the institute:
     * Pre-requisite Knowledge and skills.
     * About fee details.
     * About the course deatils available in that institute.
+We need to follow certain steps to deal with the dataset
+# Loan Default Prediction Dataset
+    Step 1 :
+            *Pre-processing{null-value rectification-has various methods like -> random values
+                                                                              -> mode
+                                                                              -> Smote(KNN)
+            *We must know which column needs what type of null value rectification .  
+    Step 2 :                   
+            *Remove the outliers.
+            *Outliers have a major impact on mean of data
+    Step 3 :
+            *Standardization and Normalization
+            *Understand why we have to do this step?
+    Step 4 :
+            *Hypothesis Testing
+    Step 5 : 
+            *Corelation
+            *to draw relation between between two fields
+            *How it can be used across different combinations (Catogorical and Real)
