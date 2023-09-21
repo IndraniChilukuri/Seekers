@@ -1,8 +1,4 @@
 import pandas as pd
-flight=pd.read_csv(flight.csv.numbers)
-modifiedFlights=flights.fillna(“Last name“)
-modifiedflights.isnull().sum()
-modifiedflights.to_csv('modifiedflights.csv',index=False)
-modifiedflights=flights.dropna(company)
-modifiedflights.isnull().sum()
-modifiedflights.to_csv('modifiedflights.csv',index=False)
+df1=df.reindex(index=dates[0:4],coulumns=list(df.cloumns)+["last name"
+df1.loc[dates[0]:dates[1],"last name"]=1
+df1
