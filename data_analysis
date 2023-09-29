@@ -1,4 +1,44 @@
+
+#to read data and descibe seperately:
+import pandas as pd 
+df=pd.read_csv("data-2.csv")
+df.head()
+df.describe()
+
+# to read and discibe in one code:
 import pandas as pd
-df1=df.reindex(index=dates[0:4],coulumns=list(df.cloumns)+["last name"
-df1.loc[dates[0]:dates[1],"last name"]=1
-df1
+import numpy as np
+df=pd.read_csv("data-2.csv")
+overview=df.describe()
+print(overview.to_csv())
+
+#to see the names of columns and the data types used:
+df.info('data-2.csv')
+
+#to check the null values:
+import pandas as pd
+df=pd.read_csv("data-2.csv")
+df.isnull().sum()
+import pandas as pd 
+df=pd.read_csv("data-2.csv")
+df.isnull().sum().sum()
+
+#to fill the null values using NAN;
+import pandas as pd
+df=pd.read_csv("Data-2.csv")
+df["Application_Order"].fillna("NAN",inplace=True)
+
+#ouliers:
+import pandas as pd
+def remove_outliers(df,columns):
+  for col in columns:
+    Q1=df[col].quantile(0.25)
+    Q3=df[col].quantile(0.75)
+    IQR=Q3-Q1
+    lower_bound=Q1-1.5*IQR
+    upper_bound=Q3+1.5*IQR
+    df=df[(df[col]>= lower_bound) & (df[col]<= upper_bound)]
+  return df
+ numerical_columns=['ApplicantIncome','loan Amount','Loan_Amoount_term']
+df_cleaned = remove_outliers(df , numerical_columns)  
+df.describe()
